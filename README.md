@@ -12,6 +12,8 @@ Purchase behavior (Web, Store, Catalog purchases)
 Spending across product categories
 Recency (last purchase)
 Website activity
+
+
 ⚙️ Project Workflow
 1. Data Preprocessing
 Loaded dataset using Pandas
@@ -46,7 +48,10 @@ Applied StandardScaler to normalize data
 Used Elbow Method to find optimal clusters
 Selected K = 4 clusters
 Applied K-Means clustering
+
+
 📈 Results & Analysis
+
 🔹 Key Metrics (Overall)
 Average Income → Represents customer purchasing power
 Average Spending (MntTotal) → Indicates overall engagement
@@ -59,41 +64,58 @@ Relationship between:
 Website visits
 Purchase frequency
 → Helps understand digital engagement
+
+
 🔹 Customer Segments (Clusters)
 🟢 Cluster 0 – High Value Customers
 High income
 High spending
 Frequent purchases
 👉 Strategy: Premium offers, loyalty programs
-🔵 Cluster 1 – Regular Customers
-متوسط income and spending
+
+
+🔵 Cluster 1 – Regular Customer 
+moderate income and spending
 Moderate purchase frequency
 👉 Strategy: Personalized recommendations
+
+
 🟡 Cluster 2 – Low Engagement Customers
 Low spending
 Low purchase frequency
 👉 Strategy: Discounts, re-engagement campaigns
+
+
 🔴 Cluster 3 – Recent but Low Spending
 Recent activity but low purchases
 👉 Strategy: Upselling and cross-selling
+
 🔹 Cluster Distribution
 Balanced segmentation across 4 groups
 Helps in targeted marketing strategies
+
+
 📊 Business Insights
 High-income customers contribute significantly to revenue
 Recency plays a key role in identifying active users
 Digital engagement (web visits) influences purchasing behavior
 Product category analysis helps in targeted promotions
-🚀 Applications
+
+
+🚀 Applications:
 Personalized marketing
 Customer retention strategies
 Targeted advertising
 Product recommendation systems
-🛠️ Tech Stack
+
+
+🛠️ Tech Stack:
 Python
 Pandas, NumPy
 Matplotlib, Seaborn
 Scikit-learn (KMeans, StandardScaler)
+
+
 📌 Conclusion
 
 This project successfully segments customers into meaningful groups using K-Means clustering, enabling businesses to:
@@ -101,6 +123,8 @@ This project successfully segments customers into meaningful groups using K-Mean
 Understand customer behavior
 Improve marketing strategies
 Increase revenue through targeted actions
+
+
 📎 Future Improvements
 Use advanced models (DBSCAN, Hierarchical Clustering)
 Add more behavioral features
